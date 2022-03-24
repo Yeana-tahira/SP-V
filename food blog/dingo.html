@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: darkkhaki;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: azure;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: antiquewhite ;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 1px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2> Food Blog </h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Healthy Food</h2>      
+      <div class="fakeimg" style="height:250px;">
+          <img src="Fh1.jpg" alt="Cover" width="200" height="200">
+          <img src="Fh2.jpg" alt="Cover" width="200" height="200">
+          <img src="Fh3.jpg" alt="Cover" width="200" height="200">
+          <img src="Fh4.jpg" alt="Cover" width="200" height="200">
+          <img src="Fh5.jpg" alt="Cover" width="190" height="200">
+        
+        
+        
+        </div>
+      <p><b>About Healthy Food</b></p>
+      <p>
+      A healthy diet is a diet that maintains or improves overall health. A healthy diet provides the body with essential nutrition: fluid, macronutrients such as protein, micronutrients such as vitamins, and adequate fibre and food energy.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Junk Food</h2>
+     
+      <div class="fakeimg" style="height:270px;">
+         <img src="Fj1.jpg" alt="Cover" width="198" height="230">
+          <img src="Fj2.jpg" alt="Cover" width="198" height="230">
+          <img src="Fj3.jpg" alt="Cover" width="198" height="230">
+          <img src="Fj4.jpg" alt="Cover" width="198" height="230">
+          <img src="Fj5.jpg" alt="Cover" width="198" height="230">
+        </div>
+      
+      <p>Junk food describes food and drinks low in nutrients (e.g. vitamins, minerals and fibre) and high in kilojoules, saturated fat, added sugar and/or added salt. Eating too much junk food is linked to serious health problems. Junk foods are not a necessary part of any diet.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Kinds of Foods</h2>
+      <div class="fakeimg" style="height:200px" "width: 80px"><img src="Kndsoffood.jpg" alt="Cover" width="265" height="170"></div>
+      <p>The Food and Agriculture Organization and World Health Organization use a system with nineteen food classifications: cereals, roots, pulses and nuts, milk, eggs, fish and shellfish, meat, insects, vegetables, fruits, fats and oils, sweets and sugars, spices and condiments, beverages, foods for nutritional uses, food</p>
+    </div>
+    <div class="card">
+      <h3>Stories of Foods</h3>
+      <div class="fakeimg">
+      <img src="storyoffood.jpg" alt="Cover" width="270" height="295">
+        </div>
+    </div>
+    <div class="card">
+      <h3>Healthy Food Tips</h3>
+      <p><a href="https://www.agegracefullyamerica.com/category/healthy-eating/" target="_blank">Article Link</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 2022 by Tahira Tabassum.</p>
+</div>
+
+</body>
+</html>
