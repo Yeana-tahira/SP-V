@@ -1,0 +1,14 @@
+.image{
+    float:left;
+    border: 10px solid darkgray;
+}
+.img{
+    margin: 5px;
+    opacity: .5;
+}
+.image p{
+    text-align: center;
+}
+.img:hover{
+    opacity: 1;
+}
